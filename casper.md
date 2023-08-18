@@ -3,7 +3,7 @@
 MS Windows instructions for flashing new firmware.
 ==================================================
 
-1. Download AVRDude for window
+1. Download AVRDude for windows
 
 https://github.com/avrdudes/avrdude/releases/download/v7.2/avrdude-v7.2-windows-x64.zip
 
@@ -23,7 +23,7 @@ cd Downloads\avrdude-v7.2-windows-x64
 avrdude -p m32u4 -c avr109 -v -U flash:w:..\dkmain.hex:i
 ```
 
-NB: _before_ running avrdude, press the reset button on the box. You have to run the above command within 6 seconds of pressing the reset button. So, type it out, but don't press enter.
+NB: _before_ running avrdude, press the reset button on the box. You have to run the above command within 6 seconds of pressing the reset button. So, type it out, but don't press enter. Press the reset button on the box, then press enter on the keyboard (to execute avrdude command)
 
 If that does not work, find which com? port the atmega32u4 is connected to.
 
