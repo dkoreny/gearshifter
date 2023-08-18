@@ -16,7 +16,7 @@ cd Downloads\avrdude-v7.2-windows-x64
 avrdude -p m32u4 -c avr109 -v -U flash:w:..\dkmain.hex:i
 ```
 
-NB: _before_ running avrdude, press the reset button on the box. You have to run the above command within 6 seconds of pressing the reset button.
+NB: _before_ running avrdude, press the reset button on the box. You have to run the above command within 6 seconds of pressing the reset button. So, type it out, but don't press enter.
 
 If that does not work, find which com? port the atmega32u4 is connected to.
 
