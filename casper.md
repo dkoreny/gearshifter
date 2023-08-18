@@ -7,8 +7,15 @@ MS Windows instructions for flashing new firmware.
 
 https://github.com/avrdudes/avrdude/releases/download/v7.2/avrdude-v7.2-windows-x64.zip
 
+(right click - save as.) (save to Downloads folder)
+
 2. Unzip into Downloads
 3. Download hex file from this repo. Save into Downloads
+
+https://raw.githubusercontent.com/dkoreny/gearshifter/main/dkmain.hex
+
+(right click - save as.) (save to Downloads folder)
+
 4. Open CMD.exe; Run the following
 
 ```
